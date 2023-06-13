@@ -1,0 +1,4 @@
+rootProject.name = 'my-spring-security-samples'
+include ':third-party:spring-boot-jwt'
+findProject(':third-party:spring-boot-jwt')?.name = 'spring-boot-jwt'
+
